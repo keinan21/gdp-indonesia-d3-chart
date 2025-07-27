@@ -1,0 +1,33 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #819067;
+}
+svg {
+    width: 100%;
+}
+
+#container {
+    min-height: 450px;
+    height: 100%;
+    padding: 2rem;
+    background-color: #FEFAE0;
+    text-align: center;
+}
+
+#tooltip {
+    background-color: #819067;
+    color: #FEFAE0;
+    padding: 10px;
+    position: absolute;
+    opacity: 0;
+    border: 1px black solid;
+    border-radius: 0.5rem;
+    transition: opacity 200ms ease;
+    transition: top 100ms ease;
+    transition: left 100ms ease;
+    text-align: center;
+}
+
